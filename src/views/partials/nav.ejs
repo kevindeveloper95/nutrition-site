@@ -1,32 +1,86 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top  ">
+<nav class="navbar navbar-expand-lg navbar-dark  fixed-top  background  ">
     <div class="container-fluid">
-      <a class="navbar-brand ml-5" href="#">Tipos de dietas</a>
+      <a class="navbar-brand " href="/"><i class="fab fa-nutritionix"></i> Tipos de dietas</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#"><i class="fas fa-heartbeat"></i> Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="#"><i class="fab fa-nutritionix" ></i> Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fas fa-weight"></i> SPricing</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fas fa-globe"></i> Todas las dietas
+            </a>
+            <ul class="dropdown-menu color-link" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="/dieta-hipercalorica"><i class="fas fa-caret-right"></i> Dieta hipercalorica</a></li>
+              <li><a class="dropdown-item" href="/dieta-hiperproteica"><i class="fas fa-caret-right"></i> Dieta hiperproteica</a></li>
+              <li><a class="dropdown-item" href="/dieta-hipoproteica"><i class="fas fa-caret-right"></i> Dieta hipoproteica</a></li>
+              <li><a class="dropdown-item" href="/dieta-hipocalorica"><i class="fas fa-caret-right"></i> Dieta hipocalorica</a></li>
+              <li><a class="dropdown-item" href="/dieta-liquida"><i class="fas fa-caret-right"></i> Dieta liquida</a></li>
+              <li><a class="dropdown-item" href="/dieta-blanda"><i class="fas fa-caret-right"></i> Dieta blanda</a></li>
+              <li><a class="dropdown-item" href="/dieta-astringente"><i class="fas fa-caret-right"></i> Dieta astringente</a></li>
+              <li><a class="dropdown-item" href="/dieta-enteral"><i class="fas fa-caret-right"></i> Dieta enteral</a></li>
+              <li><a class="dropdown-item" href="/dieta-parenteral"><i class="fas fa-caret-right"></i> Dieta parenteral</a></li>
+              <li><a class="dropdown-item" href="/dieta-diabeticos"><i class="fas fa-caret-right"></i> Dieta para diabetes</a></li>
+              <li><a class="dropdown-item" href="/insuficiencia-renal"><i class="fas fa-caret-right"></i> Dieta para insuficiencia renal</a></li>
+              <li><a class="dropdown-item" href="/dieta-dash"><i class="fas fa-caret-right"></i> Dieta dash</a></li>
+            </ul>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
               data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown link
+              <i class="fas fa-info-circle"></i> Informacion general de macronutrientes
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><a class="dropdown-item" href="/macronutrientes"><i class="fas fa-caret-right"></i> Proteinas</a></li>
+              <li><a class="dropdown-item" href="/macronutrientes"><i class="fas fa-caret-right"></i> Carbohidratos</a></li>
+              <li><a class="dropdown-item" href="/macronutrientes"><i class="fas fa-caret-right"></i> Grasas</a></li>
+              <li><a class="dropdown-item" href="/macronutrientes"><i class="fas fa-caret-right"></i> Fibra</a></li>
+              <li><a class="dropdown-item" href="/macronutrientes"><i class="fas fa-caret-right"></i> Micronutrientes</a></li>
             </ul>
           </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fas fa-file-medical"></i> Dietas clinicas
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="/insuficiencia-renal"><i class="fas fa-caret-right"></i> Dieta para insuficioncia renal</a></li>
+              <li><a class="dropdown-item" href="/dieta-parenteral"><i class="fas fa-caret-right"></i> Dieta parenteral</a></li>
+              <li><a class="dropdown-item" href="/dieta-enteral"><i class="fas fa-caret-right"></i> Dieta enteral</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fas fa-water"></i> Dietas por consistencia
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="/dieta-liquida"><i class="fas fa-caret-right"></i> Dieta liquida</a></li>
+              <li><a class="dropdown-item" href="/dieta-blanda"><i class="fas fa-caret-right"></i> Dieta blanda</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fas fa-long-arrow-alt-up"></i> <i class="fas fa-weight"></i> Dietas para aumentar masa muscular
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="/dieta-hiperproteica"><i class="fas fa-caret-right"></i> Dieta hiperproteica</a></li>
+              <li><a class="dropdown-item" href="/dieta-hipercalorica"><i class="fas fa-caret-right"></i> Dieta hipercalorica</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fas fa-long-arrow-alt-down"></i> <i class="fas fa-weight"></i> Dietas para perder grasa corporal
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="/dieta-hipocaloric"><i class="fas fa-caret-right"></i> Dieta hipocalorica</a></li>
+            </ul>
+          </li>
+        </li>
         </ul>
       </div>
     </div>

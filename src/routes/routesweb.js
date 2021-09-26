@@ -32,6 +32,34 @@ router.get('/dieta-blanda',(req,res) =>{
     res.render('dieta-blanda')
 });
 
+router.get('/dieta-astringente',(req,res) =>{
+    res.render('dieta-astringente')
+});
+
+router.get('/dieta-enteral',(req,res) =>{
+    res.render('dieta-enteral')
+});
+
+router.get('/dieta-parenteral',(req,res) =>{
+    res.render('dieta-parenteral')
+});
+
+router.get('/dieta-diabeticos',(req,res) =>{
+    res.render('dieta-diabeticos')
+});
+
+router.get('/insuficiencia-renal',(req,res) =>{
+    res.render('insuficiencia-renal')
+});
+
+router.get('/dieta-dash',(req,res) =>{
+    res.render('dieta-dash')
+});
+
+router.get('/macronutrientes',(req,res) =>{
+    res.render('macronutrientes')
+});
+
 
 
 
